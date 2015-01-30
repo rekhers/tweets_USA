@@ -2,6 +2,13 @@
   "name": "tweets-USA",
   "version": "0.0.1",
   "description": "heatmap of streaming twitter data in the US",
+  "main": "server.js",
+  "engines": {
+	  "node": "0.10.34"
+  },
+  "scripts": {
+	  "start": "node server.js"
+  },
   "dependencies": {
     "ejs": "^2.2.3",
     "express": "^4.11.1",
