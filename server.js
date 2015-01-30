@@ -13,7 +13,7 @@ app.get('/', function(req, res){
 	
 });
 
-var port = (process.env.PORT || 5000);
+var port = process.env.PORT || 5000;
 
 var stream = null;
 
