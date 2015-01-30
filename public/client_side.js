@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 			var tweet_arr = [];
 
-			var socket = io.connect();
+			var socket = io.connect('http://tweets-usa.herokuapp.com/');
 			initialize();
 			socket.on('stream', function(tweet){
 			tweet_arr.push(tweet);
